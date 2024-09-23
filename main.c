@@ -21,7 +21,6 @@ int main() {
     while (1) {
         printf("Digite a origem e destino (R, G, B): ");
         scanf(" %c %c", &origem, &destino);
-        //while (getchar() != '\n');  
 
         if ((origem == 'R' || origem == 'G' || origem == 'B') &&
             (destino == 'R' || destino == 'G' || destino == 'B') &&
@@ -32,7 +31,7 @@ int main() {
                 imprimir_estado(torre_R, torre_G, torre_B);
                 
                 if (verificar_vitoria(torre_R, torre_G, torre_B)) {
-                    printf("Parabens, você ganhou em %d jogadas.\n", jogadas);
+                    printf("Parabens, voce ganhou em %d jogadas.\n", jogadas);
                     return 0;
                 }
             } else {

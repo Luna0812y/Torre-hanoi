@@ -1,4 +1,4 @@
-typedef struct{
+typedef struct {
     char *ponto;
     int topo;
     int capacidade;
@@ -19,5 +19,3 @@ int verificar_vitoria(Torres *torreR, Torres *torreG, Torres *torreB);
 int torre_contem_unico_tipo(Torres *torre, char tipo);
 void imprimir_estado(Torres *torreR, Torres *torreG, Torres *torreB);
 void imprimir_torres(Torres *torre1, char cor1, Torres *torre2, char cor2, Torres *torre3, char cor3);
-void menu_torre();
-void sair();
